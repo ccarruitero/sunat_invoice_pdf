@@ -1,5 +1,4 @@
-require "sunat_invoice_pdf/version"
+require 'sunat_invoice'
+require 'sunat_invoice/pdf'
 
-module SunatInvoicePdf
-  # Your code goes here...
-end
+SunatInvoice::XmlDocument.include SunatInvoice::Pdf
