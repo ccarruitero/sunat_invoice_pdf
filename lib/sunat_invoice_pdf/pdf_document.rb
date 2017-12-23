@@ -55,7 +55,7 @@ module SunatInvoicePdf
     end
 
     def hash_to_row(hash, data)
-      hash.each do |key, value|
+      hash&.each do |key, value|
         label = get_label(key.to_s.upcase)
         total_row(label, value, data)
       end
