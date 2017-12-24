@@ -3,4 +3,4 @@
 require 'i18n'
 
 I18n.load_path << "#{File.dirname(__FILE__)}/../../locale/es-PE.yml"
-I18n.default_locale = 'es-PE'
+I18n.locale = 'es-PE'
