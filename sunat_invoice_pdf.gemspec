@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   end
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "sunat_invoice", "~> 0.0.3"
+  spec.add_dependency "sunat_invoice", "~> 0.1.0"
   spec.add_dependency "prawn", "~> 2.2.2"
   spec.add_dependency "prawn-table", "~> 0.2.2"
   spec.add_dependency "i18n", "~> 1.0"
