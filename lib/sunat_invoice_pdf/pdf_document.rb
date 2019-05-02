@@ -27,6 +27,9 @@ module SunatInvoicePdf
 
       text doc.document_number
 
+      text "CLIENTE"
+      text "#{doc.customer.name} - #{doc.customer.ruc}"
+
       rows = []
       doc.lines.each do |line|
         row = []
